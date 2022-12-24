@@ -1,0 +1,39 @@
+@import "~normalize.css";
+@import "~@blueprintjs/popover2/lib/css/blueprint-popover2.css";
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+@import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
+@import "~@blueprintjs/core/lib/scss/variables";
+
+body {
+  // padding-top: $pt-navbar-height; // if navbar fixed to top
+  background-color: $pt-dark-app-background-color;
+}
+
+.app-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  // align-items: stretch;
+  // align-content: stretch;
+  // justify-content: flex-start;
+  position: fixed;
+  // justify-content: center;
+  // align-items: center;
+}
+
+.app-sidebar {
+  border-radius: 0%;
+}
+
+.app-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-grow: 99;
+}
+
+.bp4-context-menu2 {
+  height: 100%;
+  width: 100%;
+}
